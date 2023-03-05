@@ -1,3 +1,6 @@
+let myConcert = JSON.parse(localStorage.getItem("concertDate")) || [];
+
+
 let countDownDate = new Date("Dec 13, 2023 13:13:13").getTime();
 
 let x = setInterval(function() {
@@ -21,3 +24,22 @@ let x = setInterval(function() {
     document.getElementById("clock").innerHTML = "SHOW TIME!";
   }
 }, 1000);
+
+
+
+
+
+const form = document.getElementById("date-select");
+const dropdown = document.getElementById("dropdown-content");
+
+form.addEventListener("submit", function(event) {
+  // Prevent the form from submitting and refreshing the page
+  event.preventDefault();
+ 
+
+  // Get selected option value
+  const selectedValue = dropdown.value;
+
+  // Save selected value to local storage
+  localStorage.setItem("selectedOption", selectedValue);
+});

@@ -1,0 +1,54 @@
+#hero2 {
+    background-image: url(/assets/images/midnight.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#select-grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh; 
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+
+option {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#dropdown-content {
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 8px;
+    height: 80px;
+    font-size: 16px;
+}
+
+#submit {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#submit:hover {
+    translate: ;
+    background-color: azure;
+    
+}
