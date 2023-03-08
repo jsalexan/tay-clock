@@ -46,6 +46,42 @@ form.addEventListener("submit", function(event) {
 
   // Save selected value to local storage
   localStorage.setItem("selectedOption", selectedValue);
+  window.location.assign('/index.html');
 });
 
+window.onSpotifyWebPlaybackSDKReady = () => {
+  const token = '[BQD8AEPAuOMseOCuMmM_0s-x1Rr9vX7KHnrjdhhseHH44tO05jGrftPdwwTUJXFPki7qcl0ZxJMngX3D7iuzsXqFOnLgaliJe5M3inaorZttbU9fOi9W8Pdz2rxfMd4axJ79-kAdg0YULaKUDojmdqELLxBZpOfxB2GS5sMXLGXP6sjeUz8x7b4BYfqt1LAgcBElwL8b95Sxx9Z08-bO61Kx]';
+  const player = new Spotify.Player({
+      name: 'Web Playback SDK Quick Start Player',
+      getOAuthToken: cb => { cb(token); },
+      volume: 0.5
+  });
 
+  // Ready
+  player.addListener('ready', ({ device_id }) => {
+      console.log('Ready with Device ID', device_id);
+  });
+
+  // Not Ready
+  player.addListener('not_ready', ({ device_id }) => {
+      console.log('Device ID has gone offline', device_id);
+  });
+
+  player.addListener('initialization_error', ({ message }) => {
+      console.error(message);
+  });
+
+  player.addListener('authentication_error', ({ message }) => {
+      console.error(message);
+  });
+
+  player.addListener('account_error', ({ message }) => {
+      console.error(message);
+  });
+
+  document.getElementById('togglePlay').onclick = function() {
+    player.togglePlay();
+  };
+
+  player.connect();
+}

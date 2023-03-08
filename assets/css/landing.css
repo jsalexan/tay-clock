@@ -1,3 +1,9 @@
+html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
 #hero2 {
     background-image: url(/assets/images/midnight.jpg);
     height: 100vh;
@@ -6,7 +12,6 @@
     background-repeat: no-repeat;
     position: relative;
 }
-
 
 .select-grp{
     display: flex;
@@ -36,7 +41,7 @@ option {
     font-size: 16px;
 }
 
-#submit {
+#saveDateBtn {
     background-color: white;
     width: 100px;
     height: 40px;
@@ -48,7 +53,7 @@ option {
 }
 
 #submit:hover {
-    translate: ;
+   
     background-color: azure;
     
 }

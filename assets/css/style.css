@@ -14,8 +14,6 @@
     position: relative;
 }
 
-
-
 .container {
     display: flex;
     flex-direction: row;
@@ -33,3 +31,11 @@
     left: 33px;
 }
 
+.credit-line {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* add media query for footer text */
