@@ -40,17 +40,22 @@ const dropdown = document.getElementById("dropdown-content");
 form.addEventListener("submit", function(event) {
   // Prevent the form from submitting and refreshing the page
   event.preventDefault();
- 
+
   // Get selected option value
   const selectedValue = dropdown.value;
 
   // Save selected value to local storage
   localStorage.setItem("selectedOption", selectedValue);
-  window.location.assign('/index.html');
+
+  // Delay page load by 2 seconds
+  setTimeout(function(){
+    window.location.assign('/index.html');
+  }, 1000);
 });
 
+
 window.onSpotifyWebPlaybackSDKReady = () => {
-  const token = '[BQD8AEPAuOMseOCuMmM_0s-x1Rr9vX7KHnrjdhhseHH44tO05jGrftPdwwTUJXFPki7qcl0ZxJMngX3D7iuzsXqFOnLgaliJe5M3inaorZttbU9fOi9W8Pdz2rxfMd4axJ79-kAdg0YULaKUDojmdqELLxBZpOfxB2GS5sMXLGXP6sjeUz8x7b4BYfqt1LAgcBElwL8b95Sxx9Z08-bO61Kx]';
+  const token = 'BQCMmjAApRsHB88PFsOw_1jdcNJWdf-IKL6agYeL8kVsy7pMsf2_Z5YgXdiPmmgGV9LWsxhbVkj8ILIDGlrEWFMRsN9rlyAbi26gMXYkXp4rP5ake0etoPsX9zoY03fMfF9xwZKXQm8mzo92-pmGdg_3K3GXSpi6QqoIiatCJ73VqOC2HSNWZ-Mn8wjenpQDp01qBs_WE8sx5U5VejfPPOpE';
   const player = new Spotify.Player({
       name: 'Web Playback SDK Quick Start Player',
       getOAuthToken: cb => { cb(token); },

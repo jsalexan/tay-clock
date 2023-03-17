@@ -2,10 +2,11 @@ html, body {
 margin: 0px;
 padding: 0px;
 border: 0px;
+font-family: 'Prata', serif;
 }
 
 #hero2 {
-    background-image: url(/assets/images/midnight.jpg);
+    background-image: url(/assets/images/wallpaper2.png);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -13,47 +14,60 @@ border: 0px;
     position: relative;
 }
 
+.spotify {
+    color: red;
+    background-color: white;
+}
+
 .select-grp{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto;  
     height: 100vh; 
 }
 
 select {
     margin-bottom: 10px;
-    margin-top: 10px; 
+    margin-top: 450px;
 }
 
 option {
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-}
-
-#dropdown-content {
-    background-color: aliceblue;
-    border-radius: 6px;
-    padding: 8px;
-    height: 80px;
-    font-size: 16px;
-}
-
-#saveDateBtn {
-    background-color: white;
-    width: 100px;
-    height: 40px;
-    border-radius: 6px;
-    margin-top: 15px;
-    padding: 10px;
-    text-align: center;
+    font-size: 18px;
     cursor: pointer;
 }
 
-#submit:hover {
-   
-    background-color: azure;
-    
+#dropdown-content {
+    background-color: #334151;
+    border-radius: 6px;
+    padding: 8px;
+    height: 80px;
+    font-size: 24px;
+    color: #FEFFFA;
+    cursor: pointer;
 }
+
+.saveDateBtn {
+    display: block;
+    background-color: #f1c47d;
+    color: #334151;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.saveDateBtn:hover {
+    background-color: #eea135;
+    color: #FEFFFA;
+    border-color: #FEFFFA;
+}
+

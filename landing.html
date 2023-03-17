@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href='assets/css/landing.css'>
+   
     <title>Tay Calendar</title>
 </head>
 <body>
     <div id="hero2">
         <form id="date-select" class='select-grp'>            
             <select id="dropdown-content">
-                <option value="">Select a concert date</option>
+                <option value="">SELECT YOUR DATE</option>
                 <option value="Mar 17, 2023 00:00:00">Glendale, AZ - 03/17</option>
                 <option value="Mar 18, 2023 00:00:00">Glendale, AZ - 03/18</option>
                 <option value="Mar 24, 2023 00:00:00">Las Vegas, NV - 03/24</option>
@@ -66,8 +70,10 @@
             </select>
         
             <button 
+            id="confetti-btn"
             type="submit"
-            id="saveDateBtn"
+            class="saveDateBtn"
+            onclick="animateButton()" 
            >
             ENTER</button>
    
