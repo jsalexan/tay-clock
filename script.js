@@ -49,7 +49,7 @@ form.addEventListener("submit", function(event) {
 
   // Delay page load by 2 seconds
   setTimeout(function(){
-    window.location.assign('/tay-clock/clock.html');
+    window.location.assign('clock.html');
   }, 1000);
 });
 
