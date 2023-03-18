@@ -54,39 +54,39 @@ form.addEventListener("submit", function(event) {
 });
 
 
-window.onSpotifyWebPlaybackSDKReady = () => {
-  const token = 'BQCMmjAApRsHB88PFsOw_1jdcNJWdf-IKL6agYeL8kVsy7pMsf2_Z5YgXdiPmmgGV9LWsxhbVkj8ILIDGlrEWFMRsN9rlyAbi26gMXYkXp4rP5ake0etoPsX9zoY03fMfF9xwZKXQm8mzo92-pmGdg_3K3GXSpi6QqoIiatCJ73VqOC2HSNWZ-Mn8wjenpQDp01qBs_WE8sx5U5VejfPPOpE';
-  const player = new Spotify.Player({
-      name: 'Web Playback SDK Quick Start Player',
-      getOAuthToken: cb => { cb(token); },
-      volume: 0.5
-  });
+// window.onSpotifyWebPlaybackSDKReady = () => {
+//   const token = 'BQCMmjAApRsHB88PFsOw_1jdcNJWdf-IKL6agYeL8kVsy7pMsf2_Z5YgXdiPmmgGV9LWsxhbVkj8ILIDGlrEWFMRsN9rlyAbi26gMXYkXp4rP5ake0etoPsX9zoY03fMfF9xwZKXQm8mzo92-pmGdg_3K3GXSpi6QqoIiatCJ73VqOC2HSNWZ-Mn8wjenpQDp01qBs_WE8sx5U5VejfPPOpE';
+//   const player = new Spotify.Player({
+//       name: 'Web Playback SDK Quick Start Player',
+//       getOAuthToken: cb => { cb(token); },
+//       volume: 0.5
+//   });
 
-  // Ready
-  player.addListener('ready', ({ device_id }) => {
-      console.log('Ready with Device ID', device_id);
-  });
+//   // Ready
+//   player.addListener('ready', ({ device_id }) => {
+//       console.log('Ready with Device ID', device_id);
+//   });
 
-  // Not Ready
-  player.addListener('not_ready', ({ device_id }) => {
-      console.log('Device ID has gone offline', device_id);
-  });
+//   // Not Ready
+//   player.addListener('not_ready', ({ device_id }) => {
+//       console.log('Device ID has gone offline', device_id);
+//   });
 
-  player.addListener('initialization_error', ({ message }) => {
-      console.error(message);
-  });
+//   player.addListener('initialization_error', ({ message }) => {
+//       console.error(message);
+//   });
 
-  player.addListener('authentication_error', ({ message }) => {
-      console.error(message);
-  });
+//   player.addListener('authentication_error', ({ message }) => {
+//       console.error(message);
+//   });
 
-  player.addListener('account_error', ({ message }) => {
-      console.error(message);
-  });
+//   player.addListener('account_error', ({ message }) => {
+//       console.error(message);
+//   });
 
-  document.getElementById('togglePlay').onclick = function() {
-    player.togglePlay();
-  };
+//   document.getElementById('togglePlay').onclick = function() {
+//     player.togglePlay();
+//   };
 
-  player.connect();
-}
+//   player.connect();
+// }
