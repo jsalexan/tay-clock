@@ -5,7 +5,7 @@
   <br><br>
   
   ## Description
-    A work in progress, this is a Taylor Swift concert countdown application. On the landing page, select the concert date you're attending, then a new page loads with a countdown to the concert day. 
+  A work in progress, this is a Taylor Swift concert countdown application. On the landing page, select the concert date you're attending, then a new page loads with a countdown to the concert day. 
   <br>
 
   For my application, I used the following technologies: CSS, JavaScript, HTML, GitHub Pages, and Git.
