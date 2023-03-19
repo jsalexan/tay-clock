@@ -26,7 +26,7 @@
 
   ## [Installation](#table-of-contents)
   The website is hosted by GitHub Pages <br>
-  You can find it here: [React Portfolio](https://portfolio-jah.tay-clock/)
+  You can find it here: [Tay Clock](https://jsalexan.github.io/tay-clock/)
   <br><br>
   The repository is on GitHub: [GitHub repository for Tay Clock.](https://github.com/jsalexan/tay-clock) <br>
   There you will find following file types: <br>
