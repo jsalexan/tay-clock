@@ -44,7 +44,7 @@
 
    ![Screen capture.](https://user-images.githubusercontent.com/110498167/226205083-6cd5392f-1c1b-4b32-9ce3-2b7c4cda5ac4.png)
    <br><br>
- ![Screen capture.](https://user-images.githubusercontent.com/110498167/226205076-4b63c5d3-b782-4083-a2b6-627b3c777a88.png)
+ ![Screen capture.](https://user-images.githubusercontent.com/110498167/226482441-8dd2620d-66f3-4960-b727-72b320a4ef0e.png)
  
   <br><br>
 

@@ -41,10 +41,20 @@
 }
 
 .credit-line {
+    font-size: 14px;
     color: white;
     position: absolute;
     bottom: 8px;
     right: 16px;
 }
 
+.form-label {
+    color: black;
+}
+
+.spotify {
+    position:absolute;
+    top: 8px;
+    left: 8px;
+}
 /* add media query for footer text */
