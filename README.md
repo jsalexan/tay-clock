@@ -11,7 +11,7 @@
   For my application, I used the following technologies: CSS, JavaScript, HTML, GitHub Pages, and Git.
   <br><br>
  
-  Up next, making it look nice on mobile. Also, I'm working on using the Spotify API to add music to the calendar page. Also working on surprise content at the end of the countdown. Stay tuned...
+  Up next, making it responsive. Also working on surprise content at the end of the countdown. Stay tuned...
   <br><br>
 
 ## Table of Contents
