@@ -5,13 +5,14 @@
   <br><br>
   
   ## Description
-  A work in progress, this is a Taylor Swift concert countdown application. On the landing page, select the concert date you're attending, then a new page loads with a countdown to the concert day. 
+  A work in progress, this is a Taylor Swift concert countdown app. On the landing page, select the concert date you're attending, then a new page loads with a countdown to the concert day. 
   <br>
 
-  For my application, I used the following technologies: CSS, JavaScript, HTML, GitHub Pages, and Git.
-  <br><br>
+  For my application, I used the following technologies: CSS, JavaScript, HTML, GitHub Pages, Spotify API, and Git.
+  <br>
  
-  Up next, making it responsive. Also working on surprise content at the end of the countdown. Stay tuned...
+  Up next, exploring converting it into a widget. I'll also add more dates as they come up, particularly those for the 2nd leg of the US.
+  Last, I'd like to add something more interesting to appear on your concert day. 
   <br><br>
 
 ## Table of Contents
@@ -40,16 +41,22 @@
 
 ## [Usage](#table-of-contents)
   The website (link above) was created to be used on the following devices:<br> 
--Desktop.
+-Desktop
+-Mobile (I like it best on mobile)
 
+Desktop
    ![Screen capture.](https://user-images.githubusercontent.com/110498167/226205083-6cd5392f-1c1b-4b32-9ce3-2b7c4cda5ac4.png)
    <br><br>
- ![Screen capture.](https://user-images.githubusercontent.com/110498167/226482441-8dd2620d-66f3-4960-b727-72b320a4ef0e.png)
+ ![Screen capture.](https://res.cloudinary.com/dlxjksvbc/image/upload/v1696970555/Screenshot_483_kqdzdg.png)
  
   <br><br>
+Mobile
+  ![Screen capture.](https://res.cloudinary.com/dlxjksvbc/image/upload/v1696970522/Screenshot_484_xzmpy0.png)
+   <br><br>
+  ![Screen capture.](https://res.cloudinary.com/dlxjksvbc/image/upload/v1696970554/Screenshot_482_gehgpa.png)
 
   ## [Credits](#table-of-contents) 
-  Credit to Don Arnold/Getty Images for the landing page photo.
+  Credit to John Shearer/Getty Images for the hero photos.
 
   <br>
  

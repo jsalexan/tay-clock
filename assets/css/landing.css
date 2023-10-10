@@ -1,3 +1,4 @@
+/* Styling for main page */
 html, body {
 margin: 0px;
 padding: 0px;
@@ -14,11 +15,6 @@ font-family: 'Prata', serif;
     position: relative;
 }
 
-.spotify {
-    color: red;
-    background-color: white;
-}
-
 .select-grp{
     display: flex;
     flex-direction: column;
@@ -30,7 +26,7 @@ font-family: 'Prata', serif;
 
 select {
     margin-bottom: 10px;
-    margin-top: 450px;
+    margin-top: 550px;
 }
 
 option {
@@ -47,6 +43,7 @@ option {
     font-size: 24px;
     color: #FEFFFA;
     cursor: pointer;
+    max-width: 350px;
 }
 
 .saveDateBtn {
@@ -55,6 +52,7 @@ option {
     color: #334151;
     width: 150px;
     height: 40px;
+    border-color: #334151;
     border-radius: 6px;
     margin-top: 50px;
     margin-bottom: 60px;
@@ -69,5 +67,14 @@ option {
     background-color: #eea135;
     color: #FEFFFA;
     border-color: #FEFFFA;
+    transition: color 0.3s ease;
+    transition: background-color, 0.3s ease;
 }
 
+/* ------------------------------ */
+@media only screen and (max-width: 600px) {
+#hero2 {
+    background-image: url(https://res.cloudinary.com/dlxjksvbc/image/upload/v1696967919/taytay_ac50it.png);
+}
+
+}
